@@ -26,9 +26,9 @@ const DashboardLayout = () => {
                                 <h1 className="text-xl font-semibold">Dashboard</h1>
 
                             </div>
-                            <div className="flex items-center">
-                                <input type="text" name="search" id="" placeholder="search here" />
-                                <span>< CgProfile></CgProfile></span>
+                            <div className="flex items-center gap-3">
+                                <input type="text" name="search" id="" placeholder="search here" className="input border border-gray-400" />
+                                <span className="text-2xl cursor-pointer">< CgProfile></CgProfile></span>
                             </div>
                         </div>
                     

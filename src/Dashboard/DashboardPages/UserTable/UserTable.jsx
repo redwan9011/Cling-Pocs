@@ -59,7 +59,7 @@ const UserTable = () => {
                             <th className="">
                                 Edit
                             </th>
-                            <th className="flex justify-center flex justify-center text-red-700 text-xl">
+                            <th className=" flex justify-center text-red-700 text-xl">
                             <RiDeleteBin6Line />
                             </th>
                         </tr>
@@ -73,7 +73,7 @@ const UserTable = () => {
                             <th className="">
                                 Edit
                             </th>
-                            <th className="flex justify-center flex justify-center text-red-700 text-xl">
+                            <th className="flex justify-center text-red-700 text-xl">
                             <RiDeleteBin6Line />
                             </th>
                         </tr>
@@ -86,7 +86,7 @@ const UserTable = () => {
                             <th className="">
                                 Edit
                             </th>
-                            <th className="flex justify-center flex justify-center text-red-700 text-xl">
+                            <th className="flex justify-center text-red-700 text-xl">
                             <RiDeleteBin6Line />
                             </th>
                         </tr>
