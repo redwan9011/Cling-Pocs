@@ -29,7 +29,7 @@ const Navbar = () => {
   </div>
   <div className="navbar-end">
    
-    <Link to='/dashboard'>Dashbord</Link>
+    <Link to='/dashboard/admissionTable'>Dashbord</Link>
   </div>
 </div>
         </div>
