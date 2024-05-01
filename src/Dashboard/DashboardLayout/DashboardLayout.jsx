@@ -8,7 +8,7 @@ const DashboardLayout = () => {
              <div className="grid grid-cols-12 gap-5  mt-5 mx-5 
              ">
                 {/* dashboard left side navbar */}
-           <div className="col-span-3 h-[95vh] sticky top-5 bg-gray-600 ">
+           <div className=" hidden lg:block col-span-3 h-[95vh] sticky top-5 bg-gray-600 ">
            <div className="  text-white rounded-xl   mb-5 text-center">
                     <h1 className="pt-5 font-semibold text-md">{"Cling-POC's"}</h1>
                     <div className="divider text-white"></div>
@@ -21,7 +21,7 @@ const DashboardLayout = () => {
            </div>
       {/*Dashboard  Right side  */}
       
-                <div className="col-span-9 ">
+                <div className="col-span-12 lg:col-span-9 ">
                     <div className="sticky top-5 bg-white opacity-85 rounded-xl  shadow-lg z-50">
                         {/* nav and search bar */}
                         <div className="flex justify-between py-5  px-3  ">
