@@ -12,13 +12,32 @@ import UserTable from "../Dashboard/DashboardPages/UserTable/UserTable";
 export const router = createBrowserRouter([
     {
       path: "/",
-      element: <Layout></Layout>,
-      children: [
-        {
-            path: '/', 
-            element: <Home></Home>
-        }
-      ]
+    //   element: <Layout></Layout>,
+        element: <DashboardLayout></DashboardLayout>,children: [
+            {
+                path: 'admissionTable',
+                element: <AddmissionTable></AddmissionTable>
+            },
+
+            {
+                path: 'medicalTable',
+                element: <MedicalTable></MedicalTable>
+            },
+            {
+                path: 'populationTable',
+                element: <PopulationTable></PopulationTable>
+            },
+            {
+                path: 'userTable',
+                element:<UserTable></UserTable>
+            },
+        ]
+    //   children: [
+    //     {
+    //         path: '/', 
+    //         element: <Home></Home>
+    //     }
+    //   ]
     },
     {
         path: "/dashboard",
